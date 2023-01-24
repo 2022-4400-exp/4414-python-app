@@ -15,7 +15,7 @@ spec:
         app: python-app
     spec:
       containers:
-      - image: ghcr.io/2022-4400-exp/4414-python-app:5caedd91483a82bd0d17891299cd79e0a4b7694f@sha256:632643d89e9d6163b288e993081bc758ef2bd188aaa61e92fec8a80cf05da745
+      - image: ghcr.io/2022-4400-exp/4414-python-app:273b8306fce1768d9a95d37dd89b57708b3305e3@sha256:779b3c626464027e413fba84a137f323543a1d8d58919f22bf4a32444eb43328
         name: python-app
         volumeMounts:
         - mountPath: /var/python-app
